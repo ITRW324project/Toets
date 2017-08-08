@@ -16,9 +16,13 @@ namespace Toets
         {
             InitializeComponent();
         }
-
-        private void button1_Click(object sender, EventArgs e)
         {
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Altus alt = new Altus();
+            alt.Show();
+        }
+        private void button1_Click(object sender, EventArgs e)
             David frm = new David();
             frm.Show();
         }
